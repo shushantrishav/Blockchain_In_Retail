@@ -11,8 +11,8 @@ app = FastAPI(
 
 # CORS configuration
 origins = [
-    "http://localhost:3000",        # for local React/Vue/Next frontend
-    # "https://your-frontend-url.com" # your Render frontend URL (if deploying)
+    # "http://localhost:3000",        # for local React/Vue/Next frontend
+    "https://blockcart.onrender.com" # your Render frontend URL (if deploying)
 ]
 
 app.add_middleware(
