@@ -1,7 +1,15 @@
 from fastapi import FastAPI
-from app.api import transactions, loyalty,status
+from app.api import transactions, loyalty, status
 from app.startup import contractsStartup
 from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
+
+# Allowed frontend origins from .env
+origins = os.getenv("ALLOWED_ORIGINS", "").split(",")
 
 app = FastAPI(
     title="Retail Blockchain System API",
@@ -10,19 +18,13 @@ app = FastAPI(
 )
 
 # CORS configuration
-origins = [
-    # "http://localhost:3000",        # for local React/Vue/Next frontend
-    "https://blockcart.onrender.com" # your Render frontend URL (if deploying)
-]
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,             # or ["*"] for development
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=origins,
+    allow_credentials=True,        
+    allow_methods=["GET", "POST"],     
+    allow_headers=["Authorization", "Content-Type"],
 )
-
 
 @app.on_event("startup")
 async def startup_event():
