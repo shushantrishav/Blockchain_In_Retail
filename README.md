@@ -1,5 +1,7 @@
 
 # 🚀 Retail Blockchain System
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github&style=for-the-badge)](https://github.com/shushantrishav/Blockchain_In_Retail)
+
 
 A decentralized, transparent, and secure platform for managing retail transactions and loyalty points using blockchain technology.
 
@@ -180,3 +182,7 @@ curl -X POST "http://localhost:8000/loyalty/redeem" -H "Content-Type: applicatio
 - **Admin Dashboard:** Retailers can manage inventory, loyalty schemes, and analytics.
 - **Decentralized Identity (DID):** Privacy-first customer authentication using decentralized IDs.
 - **Off-chain Data Storage:** Use traditional databases for storing high-frequency, non-sensitive data.
+---
+
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github&style=for-the-badge)](https://github.com/shushantrishav/Blockchain_In_Retail)
+
