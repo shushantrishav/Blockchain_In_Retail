@@ -1,6 +1,10 @@
 
 # 🚀 Retail Blockchain System
+### 📌 Demo & Code
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-28a745?style=for-the-badge&logo=vercel&logoColor=white)](https://block-cart.vercel.app/)
 [![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github&style=for-the-badge)](https://github.com/shushantrishav/Blockchain_In_Retail)
+
 
 
 A decentralized, transparent, and secure platform for managing retail transactions and loyalty points using blockchain technology.
@@ -184,5 +188,7 @@ curl -X POST "http://localhost:8000/loyalty/redeem" -H "Content-Type: applicatio
 - **Off-chain Data Storage:** Use traditional databases for storing high-frequency, non-sensitive data.
 ---
 
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github&style=for-the-badge)](https://github.com/shushantrishav/Blockchain_In_Retail)
+### 📌 Demo & Code
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-28a745?style=for-the-badge&logo=vercel&logoColor=white)](https://block-cart.vercel.app/)
+[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github&style=for-the-badge)](https://github.com/shushantrishav/Blockchain_In_Retail)
